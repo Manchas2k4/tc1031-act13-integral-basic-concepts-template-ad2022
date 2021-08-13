@@ -23,11 +23,38 @@ Ejemplo:
 
 Donde el punto de entrada puede ser **M – Mar Mediterráneo** y **R – Mar Rojo**.
 
-En equipos de dos personas, hacer una aplicación que:
-1. Solicite el nombre del archivo de entrada (Ej. canal.txt) y lo abra, almacenando los datos en un vector.
-2. Ordene la información por UBI + Fecha (primero por UBI, al haber empate ordenar por fecha).
-3. Solicite al usuario la serie a buscar (los primeros tres caracteres de el UBI).
-Despliegue todas las entradas al canal de los buques de esas series en forma ordenada UBI+Fecha.
+## <span style="color: rgb(26, 99, 169);">**Entrada**</span>
+La primera línea de entrada contiene dos elementos: un entero *n*, el número de barcos que ha entrado al canal, y una cadena de 3 tres caracteres *prefix*, el prefijo del UBI a búscar. Las siguientes *n* líneas; contiene el registro de los barcos que han entrado al canal con el formato descrito anteriormente.
+
+## <span style="color: rgb(26, 99, 169);">**Salida**</span>
+Deberás desplegar sólo los registros cuyo UBI empiece con *prefix*, ordenados por fecha.
+
+## <span style="color: rgb(26, 99, 169);">**Ejemplo de entrada**</span>
+16 2HU <br>
+01-01-20 00:17 R 2HUN5 <br>
+01-01-20 00:37 R 2AET2 <br>
+01-01-20 00:57 M 2HUQ5 <br>
+01-01-20 01:17 M 2FRW0 <br>
+01-01-20 01:37 M 4MXV8 <br>
+01-01-20 01:57 R 2HUG7 <br>
+01-01-20 02:17 R 1KIH9 <br>
+01-01-20 02:37 R 2HUX2 <br>
+01-01-20 02:57 M 3CFE2 <br>
+01-01-20 03:17 R 1TLD0 <br>
+01-01-20 03:37 R 3FRF4 <br>
+01-01-20 03:57 R 2HUK8 <br>
+01-01-20 04:17 M 0CFR7 <br>
+01-01-20 04:37 R 0TQL9 <br>
+01-01-20 04:57 R 2HUS4 <br>
+01-01-20 05:17 R 0FRX0<br>
+
+## <span style="color: rgb(26, 99, 169);">**Ejemplo de salida**</span>
+01-01-20 00:17 R 2HUN5 <br>
+01-01-20 00:57 M 2HUQ5 <br>
+01-01-20 01:57 R 2HUG7 <br>
+01-01-20 02:37 R 2HUX2 <br>
+01-01-20 03:57 R 2HUK8 <br>
+01-01-20 04:57 R 2HUS4 <br>
 
 Para probar tu implementación, compila tu programa con el comando:
 ```
@@ -35,7 +62,7 @@ g++ main.cpp -o app
 ```
 Posteriormente, prueba con cada uno de los archivos de entrada de prueba que encontrarás en este repositorio (input1.txt, input2.txt, input3.txt, input4.txt). Los resultados que debes obtener se encuentran en los archivos llamados output1.txt, output1.txt, output1.txt y output1.txt. Para realizar las pruebas, puedes usar las siguientes líneas de código. Por ejemplo, si queremos probar con el archivo de prueba "input1.txt".
 ```
-./app > mysolution1.txt
+./app < input1.txt > mysolution1.txt
 diff mysolution1.txt output1.txt
 ```
 Si el segundo comando no tenga ninguna salida, sabrás que los resultados que obtuviste son los esperados. Recuerda actualizar tu repositorio (*git push*) cuando hayas terminado tu implementación.
