@@ -32,32 +32,32 @@ Deberás desplegar sólo los registros cuyo UBI empiece con *prefix*, ordenados 
 ## <span style="color: rgb(26, 99, 169);">**Ejemplo de entrada**</span>
 ```
 16 2HU <br>
-01-01-20 00:17 R 2HUN5 <br>
-01-01-20 00:37 R 2AET2 <br>
-01-01-20 00:57 M 2HUQ5 <br>
-01-01-20 01:17 M 2FRW0 <br>
-01-01-20 01:37 M 4MXV8 <br>
-01-01-20 01:57 R 2HUG7 <br>
-01-01-20 02:17 R 1KIH9 <br>
-01-01-20 02:37 R 2HUX2 <br>
-01-01-20 02:57 M 3CFE2 <br>
-01-01-20 03:17 R 1TLD0 <br>
-01-01-20 03:37 R 3FRF4 <br>
-01-01-20 03:57 R 2HUK8 <br>
-01-01-20 04:17 M 0CFR7 <br>
-01-01-20 04:37 R 0TQL9 <br>
-01-01-20 04:57 R 2HUS4 <br>
-01-01-20 05:17 R 0FRX0<br>
+01-01-20 00:17 R 2HUN5
+01-01-20 00:37 R 2AET2
+01-01-20 00:57 M 2HUQ5
+01-01-20 01:17 M 2FRW0
+01-01-20 01:37 M 4MXV8
+01-01-20 01:57 R 2HUG7
+01-01-20 02:17 R 1KIH9
+01-01-20 02:37 R 2HUX2
+01-01-20 02:57 M 3CFE2
+01-01-20 03:17 R 1TLD0
+01-01-20 03:37 R 3FRF4
+01-01-20 03:57 R 2HUK8
+01-01-20 04:17 M 0CFR7
+01-01-20 04:37 R 0TQL9
+01-01-20 04:57 R 2HUS4
+01-01-20 05:17 R 0FRX0
 ```
 
 ## <span style="color: rgb(26, 99, 169);">**Ejemplo de salida**</span>
 ```
-01-01-20 00:17 R 2HUN5 <br>
-01-01-20 00:57 M 2HUQ5 <br>
-01-01-20 01:57 R 2HUG7 <br>
-01-01-20 02:37 R 2HUX2 <br>
-01-01-20 03:57 R 2HUK8 <br>
-01-01-20 04:57 R 2HUS4 <br>
+01-01-20 00:17 R 2HUN5
+01-01-20 00:57 M 2HUQ5
+01-01-20 01:57 R 2HUG7
+01-01-20 02:37 R 2HUX2
+01-01-20 03:57 R 2HUK8
+01-01-20 04:57 R 2HUS4
 ```
 
 Para probar tu implementación, compila tu programa con el comando:
