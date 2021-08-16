@@ -18,10 +18,12 @@ El canal de Suez es un canal navegable que conecta el mar Mediterráneo con el m
 ```
 Ejemplo:
 ```
-3-jan-20 13:45 M 8PAK7
+03-01-20 13:45 M 8PAK7
 ```
-
-Donde el punto de entrada puede ser **M – Mar Mediterráneo** y **R – Mar Rojo**.
+Donde:
+* El punto de entrada puede ser **M – Mar Mediterráneo** y **R – Mar Rojo**.
+* La fecha estará entre **01-ENE-2020** y **31-DIC-2020**.
+* El tiempo estará en formato de 24 Hrs.
 
 ## <span style="color: rgb(26, 99, 169);">**Entrada**</span>
 La primera línea de entrada contiene dos elementos: un entero *n*, el número de barcos que ha entrado al canal, y una cadena de 3 tres caracteres *prefix*, el prefijo del UBI a búscar. Las siguientes *n* líneas; contiene el registro de los barcos que han entrado al canal con el formato descrito anteriormente.
