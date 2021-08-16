@@ -33,7 +33,7 @@ Deberás desplegar sólo los registros cuyo UBI empiece con *prefix*, ordenados 
 
 ## <span style="color: rgb(26, 99, 169);">**Ejemplo de entrada**</span>
 ```
-16 2HU <br>
+16 2HU
 01-01-20 00:17 R 2HUN5
 01-01-20 00:37 R 2AET2
 01-01-20 00:57 M 2HUQ5
