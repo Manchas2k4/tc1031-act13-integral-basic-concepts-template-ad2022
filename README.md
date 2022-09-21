@@ -29,7 +29,7 @@ Donde:
 La primera línea de entrada contiene dos elementos: un entero *n*, el número de barcos que ha entrado al canal, y una cadena de 3 tres caracteres *prefix*, el prefijo del UBI a búscar. Las siguientes *n* líneas; contiene el registro de los barcos que han entrado al canal con el formato descrito anteriormente.
 
 ## <span style="color: rgb(26, 99, 169);">**Salida**</span>
-Deberás desplegar sólo los registros cuyo UBI empiece con *prefix*, ordenados por fecha.
+Deberás desplegar sólo los registros cuyo UBI empiece con *prefix*, ordenados con el siguiente criterio: fecha, hora, entrada y ubi.
 
 ## <span style="color: rgb(26, 99, 169);">**Ejemplo de entrada**</span>
 ```
